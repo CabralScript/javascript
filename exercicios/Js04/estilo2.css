@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+}
+body{
+    background-image: linear-gradient(to bottom, yellow,black);
+    background-attachment: fixed;
+}
+h1{
+    color: #c5930b;
+    text-align: center;
+    font-family: cursive;
+}
+h2{
+    font-family: cursive;
+}
+p{
+    font-family: arial;
+}

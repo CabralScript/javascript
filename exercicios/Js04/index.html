@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.star.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="java.js"></script>
+    <title>Js04</title>
+    <script>
+        $('div').html("<div>1</div>");
+    </script>
+</head>
+<body>
+    <main>
+        <h1>
+            Introduzindo o DOM
+            <h2>Document Object Model</h2>
+            <hr>
+            <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+            <div id="msg">clique em mim</div>
+        </h1>
+        <a href="dom2.html">aqui</a>
+    </main>
+    <script>
+      // var p0 = window.document.getElementsByTagName('p')[0]
+       
+      // document.write(p0.innerHTML)
+       //var d = window.document.getElementById('msg') 
+       //d.style.background = "green"
+       //d.innerText = 'Aguardando...'
+       var d = window.document.querySelector('div#msg')
+       d.style.background = 'blue'
+    </script>
+</body>
+</html>

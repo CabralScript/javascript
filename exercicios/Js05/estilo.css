@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-color: yellow;
+}
+
+main{
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px white;
+    margin:auto;
+    width: 600px;
+    padding: 20px;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: justify;
+}
+div#res{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+
+}
+a:hover{
+    background-color: gold;
+    color: black;
+}
+    

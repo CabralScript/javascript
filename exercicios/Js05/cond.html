@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pp.css">
+    <link rel="shortcut icon" href="favicon.star.png" type="image/x-icon">
+    <script src="javazinho.js"></script>
+    <title>Seu País</title>
+</head>
+<body>
+    <main>
+        <h1>
+            Sua Nacionalidade
+        </h1>
+        <a href="index.html">Volte para a página anterior</a>
+        <hr>
+        <p>
+           País que você nasceu: <input type="text" name="txnac" id="txnac"> ? <input type="button" value="Verificar" onclick="nacio()">
+            <div id="res">
+        </p>
+    </main>
+     <script>
+        function nacio(){
+            var nactx = window.document.querySelector("input#txnac")
+            var res= window.document.querySelector("div#res")
+            var pais = String(nactx.value)
+            var nacionalidade = "Brasil" 
+            var eua = "Estados unidos"
+             if(pais == nacionalidade ) {
+                res.innerHTML = "Você é Brasileiro."
+
+             }
+             else{
+                res.innerHTML = "Você é estrangeiro"
+             }            
+        }
+     </script>
+</body>
+</html>

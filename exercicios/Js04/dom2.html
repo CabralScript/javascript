@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.star.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="java.js"></script>
+    <title>Dom02</title>
+    <style>
+        div#Area{ 
+            background-color: green;
+            color: white;
+            height: 200px;
+            width: 200px;
+            line-height: 200px;
+            text-align: center;
+            font: normal 20pt arial;
+            
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>DOM (parte 2)</h1>
+        <h2>Eventos DOM</h2>
+        <a href="dom3.html">ir</a> <br>
+        <a href="index.html">volte</a>
+        <hr>
+         <div id="Area" onclick="clicar()" onmouseenter="entrar()"
+         onmouseout="sair()" mousemove = "move()">
+            Cariocao
+         </div>
+    </main>
+    <script>
+       var a = window.document.getElementById('Area')
+       function clicar(){
+            
+            a.innerText= 'Flamengo'
+            a.style.background = 'red'
+        }
+        function entrar (){
+            a.innerText = 'Fluminense'
+            a.style.background = '#501313'
+        }
+        function sair(){
+            a.innerText='Vasco'
+            a.style.background = 'Black'
+        }
+        function move() {
+            a.innerText = 'Botafogo'
+            a.style.background = '#222222d0'
+        }
+    </script>
+</body>
+</html>
