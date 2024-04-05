@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor1: #574C79;
+    --cor2: #403C4D;
+    --cor3: #521BF7;
+    --cor4: #5F48A2;
+    --cor5: #2E2C33;
+    --cor6: #5E39CD;
+    --cor7: #380F17;
+    --cor8: #8F0B13;
+    --cor9: #252B2B;
+   
+   }
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor7), var(--cor8));
+    border-radius: 7px;
+    padding: 6px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+body{
+    background-image: linear-gradient(to bottom,var(--cor8), var(--cor7));
+    background-attachment: fixed;
+}
+
+section{
+    background-color: #2E2C33;
+    border-radius: 7px;
+    margin: auto;
+    width: 400px;
+    padding: 3px;
+    padding-left: 3px;
+    text-align: center;
+    box-shadow: 2px 2px 0px #0000007c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

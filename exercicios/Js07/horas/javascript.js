@@ -8,7 +8,7 @@ function carregar() {
     var s = new Date()
     var seg = s.getSeconds()
     const intervalo = setInterval(carregar,1000)
-    mensagem.innerHTML = `Agora são <em><strong>${hora}</strong>:${mini}:${seg}</em> h.`
+    mensagem.innerHTML = `<em><strong>${hora}</strong>: <strong>${mini}</strong>:<strong>${seg}</strong></em> h.`
     if (hora >= 0 && hora <12){
         
         img.src = 'bomdia.jpg'

@@ -64,5 +64,8 @@ div{
     padding: 8px;
 }
 strong{
-    color: red;
+    color: rgb(255, 255, 255);
+    background-color: firebrick;
+    padding: 15px;
+    border-radius: 30% 30% / 80% 80% ;
 }

@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+:root{
+ --cor1: #574C79;
+ --cor2: #403C4D;
+ --cor3: #521BF7;
+ --cor4: #5F48A2;
+ --cor5: #2E2C33;
+ --cor6: #5E39CD;
+ --cor7: #380F17;
+ --cor8: #8F0B13;
+ --cor9: #252B2B;
+
+}
+
+h1,h3{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    background-color: #380F17;
+    background-image: url("tab.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+
+    
+}
+
+main{
+    background-color: #252b2ba6;
+    border-radius: 3px 4px 3px 4px;
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 2px 2px 3px #00000080;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+#tabutx{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#bt{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px; 
+    padding: 5px;
+    background-color: #403C4D;
+    color: white;
+}
