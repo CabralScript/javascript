@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: aqua;
+}
+
+main{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px 20px;
+    box-shadow: 2px 3px 3px black;
+    height: 150px;
+}
+
+footer{
+    margin: 20px;
+    background-color: aquamarine;
+    border: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 3px black;
+}

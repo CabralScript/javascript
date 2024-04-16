@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body{
+    background-color: blue;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    color: white;
+    text-align: center;
+
+}
+
+main{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px 20px;
+    padding: 16px;
+    box-shadow: 2px 2px 3px black;
+    
+   
+    
+}
+footer > p{
+    color: white;
+    text-align: center;
+}
+
+#txtn{
+    background-color: gray;
+    padding: 0.3rem;
+    border-radius: 3px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 10px;
+    color: white;
+    
+
+}
+input{
+    border: none;
+
+    
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{
+    appearance: none;
+}
+input:focus{
+    outline: none;
+}
+
+.button{
+    background-color: gray;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0.3rem;
+}
+
+select{
+    border: none;
+}
+select::-webkit-outer-spin-button, select::-webkit-inner-spin-button{
+    appearance: none;
+}
+select:focus{
+    outline: none;
+}

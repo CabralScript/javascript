@@ -5,18 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.star.png  " type="image/x-icon">
     <link rel="stylesheet" href="cess.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Tabuada web</title> 
 </head>
 <body>
- <main>
-        <section class="dig">
-            <h1>Tabuada Web</h1>
-            <h3>Digite um numero para gerar a tabuada</h3>
-           <input type="number" name="tabu" id="tabutx"> <input type="button" value="Gerar" id="bt">
-        </section>
-        <table tabuada()>
-        
-        </table>
-    </main>
+ <main id="container">
+     <section id="img">
+          <img src="img/educatorilus.svg" alt="">
+     </section>
+         
+     <section id="calculadora">
+        <form id="form">
+       <h1 id="title">
+              Calculadora
+        </h1>
+        <div class="input-box">
+           <label for="numero1">
+            Tabuada
+           </label>
+           <div class="input-field">
+            <i class="fa-solid fa-calculator" style="color: #8F0B13;"> </i>
+            <input type="number" id="numero1" required>
+            <span>
+                <i class="fa-solid fa-xmark" style="color: #8F0B13;"></i>
+            </span>
+           </div>
+           <div class="input-field">
+            <i class="fa-solid fa-calculator" style="color: #8F0B13;"> </i>
+            <input type="number" id="numero2" required>
+            <span>
+                <i class="fa-solid fa-equals" style="color: #8F0B13;"></i>
+            </span>
+           </div>
+        </div>
+        <button id="calcular" event()>
+           Calcular
+        </button>
+    </form>
+    <div id="info" class="hidden">
+        <div id="resultado">
+           <div id="result">
+             <span id="value">
+                
+             </span>
+             <span class="tabu">RESULTADO</span>
+           </div>
+        </div>        
+    </div>
+    </section>   
+ </main>
+ <script src="js.js"></script>
 </body>
 </html>
