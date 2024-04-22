@@ -10,17 +10,22 @@
 <body>
    <header>
     <h1>
-        Exercício
+        Exercício - Analisador de números
     </h1>
    </header>
    
     <main>
         
         <div>
-          Digite um número de 1 a 100:<input type="number">
+          Digite um número de 1 a 100:
+          <input type="number" name="fnum" id="fnum">
+          <input type="button" value="Adicionar" onclick="add()">
+          <br> <br>
+          <select name="flist" id="flist" size="6"></select> <br>
+          <input type="button" value="finalizar" class="b" onclick="finalizar()">
         </div>
-        <div>
-           <select name="" id=""></select>
+        <div id="res">
+           
         </div>
 
    </main> 

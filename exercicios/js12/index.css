@@ -16,9 +16,14 @@ main{
     margin: auto;
     border-radius: 10px 20px;
     box-shadow: 2px 3px 3px black;
-    height: 150px;
+    height: 400px;
 }
-
+#flist{
+    width: 160px;
+}
+.b{
+    margin: 5px;
+}
 footer{
     margin: 20px;
     background-color: aquamarine;
