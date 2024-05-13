@@ -14,3 +14,7 @@ const nome = "Davi"
 const idade = 18
 const p = "Programador"
 console.log(`O ${nome} tem ${idade} anos e vai ser um ${p} no futuro.`)
+
+var r = 2
+var j = 44
+console.log(r*j)
