@@ -7,6 +7,6 @@ if(idade >= 17 && idade <= 18 ) {
     
     promptSync.question("Seja bem vindo")
 }else{
-    promptSync.question("Voce é de menor")
+    promptSync.question("Voce eh de menor")
     document.body.style.backgroundColor = 'black'
 }

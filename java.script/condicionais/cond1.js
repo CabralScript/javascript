@@ -17,7 +17,7 @@ const n = 17
 console.log (l >= 18 && n >= 18)
 
 console.log(!(n >= 18))
-//aqui ele está comparando se a pessoa é menor de idade
+//aqui ele está comparando se a pessoa é menor de idade 
 
 //controle de fluxo condicionais
-/*paramos no 14;40*/ 
+

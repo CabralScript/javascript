@@ -1,10 +1,8 @@
-const promptSync = require("readline-sync")
-
-var idade = Number(promptSync.question("Qual a sua idade?"))
+var idade = Number(window.prompt("Qual a sua idade?"))
 if(idade >= 17 && idade <= 18 ) {
     
-    console.log("Seja bem vindo", typeof idade)
+    window.alert("Seja bem vindo")
 }else{
-    console.log("Voce é de menor")
-   
+    window.alert("Voce é de menor")
+    document.body.style.backgroundColor = 'black'
 }
